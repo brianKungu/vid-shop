@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Layout, Meta, Header,How, Creators } from "../components";
+import { Layout, Meta, Header, How, Creators } from "../components";
 
 export default function Home() {
   return (

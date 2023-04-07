@@ -2,18 +2,25 @@
 @tailwind components;
 @tailwind utilities; /** @type {import('tailwindcss').Config} */
 
+:root {
+  --max-width: 1200px;
+  --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
 html,
 body {
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  max-width: 1200px;
+  font-family: var(--font-family);
+  max-width: var(--max-width);
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
   overflow-x: hidden;
   background-image: linear-gradient(to bottom right, #fff, #93c5fd);
   background-attachment: fixed;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ::before,
@@ -34,10 +41,19 @@ a span {
   @apply ml-3 text-base font-medium text-darkBlue hover:text-lightBlue;
 }
 
+.nav {
+  position: fixed;
+  top: 0;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 1;
+}
+
 .popover-button {
   @apply inline-flex items-center justify-center p-2 text-darkBlue hover:text-lightBlue rounded-md bg-blue-50  hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-200;
 }
 
 section {
   @apply md:mx-0 mx-4 max-w-7xl h-[80vh] block md:flex items-center;
+  flex: 1 1 auto;
 }
