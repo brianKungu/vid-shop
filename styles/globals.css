@@ -47,7 +47,7 @@ a span {
 }
 
 section {
-  @apply md:mx-0 mx-4 max-w-7xl md:h-[100vh] block md:flex items-center;
+  @apply md:mx-0 mx-4 max-w-7xl my-[100px] block md:flex items-center;
   flex: 1 1 auto;
 }
 
