@@ -27,6 +27,7 @@ export default function How() {
                 loop
                 autoplay
                 muted
+                controls
               ></video>
             </div>
           </div>
