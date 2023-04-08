@@ -6,11 +6,17 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <Popover className="backdrop-blur-md drop-shadow shadow-darkBlue nav">
+    <Popover className="backdrop-blur-md drop-shadow shadow-darkBlue">
       <div className="px-6 mx-auto max-w-7xl md:px-2">
         <div className="flex items-center justify-between w-full py-6 border-b-2 border-lightBlue md:justify-start md:space-x-10">
           <div className="flex justify-start">
-            <Image src="/images/logo.jpeg" width={50} height={50} />
+            <Image
+              src="/images/logo.jpeg"
+              width={50}
+              height={50}
+              alt="vid shop logo image"
+              priority
+            />
           </div>
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
             <Link

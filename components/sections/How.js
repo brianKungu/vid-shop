@@ -23,7 +23,7 @@ export default function How() {
               <video
                 src="./logoAnimation.mp4"
                 type="video/mp4"
-                className="mx-auto rounded-md shadow-lg"
+                className="mx-auto"
                 loop
                 autoplay
                 muted

@@ -16,7 +16,7 @@ export default function Header() {
             ></video>
           </div>{" "}
           <div className="text-center mt-8">
-            <h2 className="font-bold text-3xl text-gray-700">
+            <h2 className="font-bold text-3xl md:text-5xl text-gray-700">
               ONLINE VS REALITY JUST GOT CANCELED
             </h2>
             <p className="mt-4 text-gray-600">
