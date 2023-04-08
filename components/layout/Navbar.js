@@ -17,7 +17,15 @@ export default function Navbar() {
               alt="vid shop logo image"
               priority
             />
-            <h1 className="font-bold text-darkBlue uppercase">Vid shop</h1>
+            <Link  to="header"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="cursor-pointer"
+              >
+              <h1 className="font-bold text-darkBlue uppercase">Vid shop</h1>
+            </Link>
           </div>
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
             <Link

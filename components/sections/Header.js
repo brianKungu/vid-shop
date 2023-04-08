@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <section id="header">
+    <section id="header" className="mt-4">
       <div className="mx-auto my-8">
         <div>
           <div className="video-container drop-shadow shadow-lg shadow-lightOrange/20">
@@ -24,7 +24,7 @@ export default function Header() {
             <p className="mt-4 text-gray-600">
               Experience shopping like a <strong>VIP</strong>. Shop{" "}
               <strong>directly </strong>
-              from creator videos <strong>quicker</strong> than you can say, &quot;a
+              from creator videos <strong>quicker</strong> than you can say, &quot;A
               synonym for cinnamon is a cinnamon synonym.&quot;
             </p>
           </div>

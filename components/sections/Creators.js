@@ -16,7 +16,7 @@ export default function Creators() {
     },
     {
       id: 3,
-      title: "Watch the sales rolling",
+      title: "Watch the sales roll in",
       description:
         "As your community engages with your video, our app does the rest. You'll receive commissions on all purchases made through your unique links. It's that easy!",
     },
