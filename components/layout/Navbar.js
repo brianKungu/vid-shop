@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Transition, Popover } from "@headlessui/react";
 import { Link } from "react-scroll";
 import { AiOutlineAlignRight, AiOutlineClose } from "react-icons/ai";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -9,13 +10,7 @@ export default function Navbar() {
       <div className="px-6 mx-auto max-w-7xl md:px-2">
         <div className="flex items-center justify-between w-full py-6 border-b-2 border-lightBlue md:justify-start md:space-x-10">
           <div className="flex justify-start">
-            <Link
-              href="/"
-              passHref
-              className="font-bold text-3xl text-darkBlue hover:text-lightBlue"
-            >
-              VidShop Logo
-            </Link>
+            <Image src="/images/logo.jpeg" width={50} height={50} />
           </div>
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
             <Link

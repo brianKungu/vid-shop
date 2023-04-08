@@ -6,17 +6,29 @@ export default function How() {
       <div className="m-4 mx-auto">
         <div className="grid md:grid-cols-2 gap-8 grid-cols-1 mx-auto">
           <div className="flex flex-col">
-            <h2 className="font-bold text-5xl capitalize text-gray-800 mb-4 text-center md:text-left">
+            <h2 className="font-bold text-5xl capitalize text-gray-700 mb-4 text-center md:text-left">
               How it works
             </h2>{" "}
-            <p className="my-auto text-gray-700 text-center md:text-left">
+            <p className="my-auto text-gray-600 text-center md:text-left text-3xl">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+              <strong className="text-4xl">Browse</strong> product <br />
+              videos, <strong className="text-4xl">like</strong> something,{" "}
+              <strong className="text-4xl">want</strong> it,{" "}
+              <strong className="text-4xl">get</strong> it with just
+              <strong className="text-4xl"> three clicks.</strong>
             </p>
           </div>
           <div className="mt-10 md:m-0">
-            <div className="h-[300px] md:w-[500px] bg-darkOrange rounded-md mx-auto"></div>
+            <div className="how-container">
+              <video
+                src="./logoAnimation.mp4"
+                type="video/mp4"
+                className="mx-auto rounded-md shadow-lg"
+                loop
+                autoplay
+                muted
+              ></video>
+            </div>
           </div>
         </div>
       </div>

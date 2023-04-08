@@ -5,15 +5,27 @@ export default function Header() {
     <section id="header">
       <div className="mx-auto my-8">
         <div>
-          <div className="md:w-[1200px] h-[300px] bg-lightBlue mx-auto rounded-md">
-            <p className="text-center text-2xl font-bold text-primaryBg uppercase my-auto">
-              Logo animation
-            </p>
+          <div className="video-container">
+            <video
+              className="mx-auto rounded-md shadow-lg header-video"
+              autoplay
+              muted
+              loop
+              src="./logo.mp4"
+              type="video/mp4"
+            ></video>
           </div>{" "}
-          <p className="text-center mt-6 text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <div className="text-center mt-8">
+            <h2 className="font-bold text-3xl text-gray-700">
+              ONLINE VS REALITY JUST GOT CANCELED
+            </h2>
+            <p className="mt-4 text-gray-600">
+              Experience shopping like a <strong>VIP</strong>. Shop{" "}
+              <strong>directly </strong>
+              from creator videos <strong>quicker</strong> than you can say a
+              synonym for cinnamon is a cinnamon synonym.
+            </p>
+          </div>
         </div>
       </div>
     </section>
