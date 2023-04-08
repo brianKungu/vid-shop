@@ -9,19 +9,20 @@ export default function How() {
             <h2 className="font-bold text-5xl capitalize text-gray-700 mb-4 text-center md:text-left">
               How it works
             </h2>{" "}
-            <p className="my-auto text-gray-600 text-center md:text-left text-3xl">
+            <p className="my-10 text-gray-600 text-center md:text-left text-3xl">
               {" "}
-              <strong className="text-4xl">Browse</strong> product <br />
-              videos, <strong className="text-4xl">like</strong> something,{" "}
-              <strong className="text-4xl">want</strong> it,{" "}
-              <strong className="text-4xl">get</strong> it with just
-              <strong className="text-4xl"> three clicks.</strong>
+              <strong className="text-4xl">Browse</strong> product
+              videos, <br /> <strong className="text-4xl capitalize">like</strong>{" "}
+              something, <strong className="text-4xl capitalize">want</strong>{" "}
+              it, and <strong className="text-4xl capitalize">get</strong> it with
+              just
+              <strong className="text-4xl capitalize"> three clicks.</strong>
             </p>
           </div>
           <div className="mt-10 md:m-0">
             <div className="how-container">
               <video
-                src="./logoAnimation.mp4"
+                src="./howToAnimation.mp4"
                 type="video/mp4"
                 className="mx-auto"
                 loop
