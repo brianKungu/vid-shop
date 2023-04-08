@@ -6,10 +6,10 @@ export default function Footer() {
     <footer className="bg-inherit text-center text-darkBlue backdrop-blur-md w-full">
       <div className="md:flex items-center justify-between container pt-9">
         <div className="mb-8">
-          <h2 className="text-4xl font-bold md:text-left">
+          <h2 className="text-4xl font-bold md:text-left drop-shadow-xl">
             Follow us to stay in the loop!
           </h2>
-          <p className="text-sm md:text-lg my-4">
+          <p className="text-sm md:text-lg my-4 drop-shadow-xl">
             Get notified when our app goes live and start monetizing your
             content today.
           </p>
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-inherit p-4 text-center text-darkBlue ">
+      <div className="bg-inherit p-4 text-center text-darkBlue drop-shadow-xl">
         © 2023 Copyright:
         <Link
           className="text-darkBlue font-bold"
