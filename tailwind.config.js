@@ -11,11 +11,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryBg: "#fff",
-        darkBlue: "#1d4ed8",
-        lightBlue: "#3b82f6",
-        darkOrange: "#ea580c",
-        lightOrange: "#f97316",
+        primaryBg: "#3C3C3E",
+        secondaryBg: "#464646",
+        darkBlue: "#95B6D5",
+        lightBlue: "#A7C8E4",
+        darkPink: "#E94276",
+        lightPink: "#E96B94",
       },
     },
   },
