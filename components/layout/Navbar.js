@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <Popover className="backdrop-blur-md nav ">
       <div className="px-6 mx-auto max-w-7xl md:px-2">
-        <div className="flex items-center justify-between w-full py-6 border-b-2 border-lightPink md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between w-full py-6  border-lightPink md:justify-start md:space-x-10">
           <div className="flex justify-start items-center gap-4">
             <Image
               src="/images/logo.png"

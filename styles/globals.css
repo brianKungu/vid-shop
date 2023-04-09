@@ -11,7 +11,7 @@
 
 html,
 body {
-  @apply bg-primaryBg;
+  @apply bg-black;
   padding: 0;
   margin: 0 auto;
   font-family: var(--font-family);

@@ -16,10 +16,10 @@ export default function Header() {
             <h1 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
               Shop and swipe. the ultimate shopping experience
             </h1>
-            <p className="mt-4 text-white/50 leading-8 text-lg">
+            <p className="mt-4 text-white/80 leading-8 text-lg">
               &quot;Explore the underground world of shopping with creators as
               they unveil hidden gems, <br />
-              share product finds and prices with out innovative in-video
+              share product finds and prices with our innovative in-video
               shopping texhnology.&quot;
             </p>
             <div className="mt-4">
