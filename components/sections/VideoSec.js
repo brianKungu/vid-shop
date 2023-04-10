@@ -17,8 +17,8 @@ export default function VideoSec() {
         </marquee>
         <div className="p-12 text-center">
           {" "}
-          <h2 className="font-bold text-3xl md:text-5xl text-white/60 uppercase leading-8">
-            Don&apos;t get it? <br /> <span className="text-3xl">here is a quick demo video</span>
+          <h2 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
+            Don&apos;t get it? <br /> <span className="text-3xl text-white/80">here is a quick demo video</span>
           </h2>
           <div className="mt-10">
             <div className="how-container">

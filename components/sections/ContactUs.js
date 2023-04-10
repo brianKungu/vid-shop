@@ -10,7 +10,7 @@ export default function ContactUs() {
             <h2 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
               contact us
             </h2>
-            <form className="shadow-md rounded px-8 pt-6 pb-8 md:w-1/2">
+            <form className="shadow-md rounded px-4 pt-6 pb-8 md:w-1/2 w-full">
               <div className="mb-4">
                 <label
                   className="block text-white text-sm font-bold mb-2"
