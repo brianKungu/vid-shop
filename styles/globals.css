@@ -43,7 +43,7 @@ a {
 }
 
 a span {
-  @apply ml-3 text-base text-white hover:text-lightBlue font-semibold;
+  @apply ml-3 text-base text-white hover:text-darkPink font-semibold;
 }
 
 .popover-button {
