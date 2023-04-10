@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { Transition, Popover } from "@headlessui/react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import { AiOutlineAlignRight, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import RCButton from "../react-scroll-btns/RCButton";
-import NXTButton from "../next-link-btns/NXTButton";
+import Button from "../next-link-btns/Button";
 import NXTButtonOutline from "../next-link-btns/NXTButtonOutline";
 
 export default function Navbar() {
@@ -20,24 +20,22 @@ export default function Navbar() {
               alt="vid shop logo image"
               priority
             />
-            <Link
-              to="header"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              className="cursor-pointer"
-            >
+
+            <a href="#header">
+              {" "}
               <h1 className="font-bold text-white uppercase">Vid shop</h1>
-            </Link>
+            </a>
           </div>
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
             <RCButton name="how it works" />
             <RCButton name="reviews" />
-            <RCButton name="contact us" />
-
+            <RCButton name="contact us" to="contact"/>
             <NXTButtonOutline name="sign up" />
-            <NXTButton name="login" />
+            <Button>
+              <Link href="/login" passHref>
+                Login
+              </Link>
+            </Button>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="popover-button">
@@ -75,9 +73,13 @@ export default function Navbar() {
                 <div className="grid gap-y-8">
                   <RCButton name="how it works" />
                   <RCButton name="reviews" />
-                  <RCButton name="contact us" />
+                  <RCButton name="contact us" to="contact"/>
                   <NXTButtonOutline name="sign up" />
-                  <NXTButton name="login" />
+                  <Button>
+                    <Link href="/login" passHref>
+                      Login
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </div>

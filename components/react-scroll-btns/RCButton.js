@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
-export default function RCButton({ name }) {
+export default function RCButton({ name, to }) {
   return (
     <>
       <Link
-        to="header"
+        to={to}
         spy={true}
         smooth={true}
         offset={50}

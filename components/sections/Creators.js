@@ -27,10 +27,10 @@ export default function Creators() {
         <div className="my-10">
           <h2 className="text-5xl font-bold text-gray-700">Creator’s Page</h2>
         </div>
-        <ol className="relative border-l border-darkBlue mx-6">
+        <ol className="relative border-l-8 border-lightPink mx-6">
           {creators_content.map((content) => (
             <li className="mb-10 ml-6" key={content.id}>
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-lightPink rounded-full -left-3 ring-8 ring-white ">
                 <span className="text-darkBlue font-bold">{content.id}</span>
               </span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-600 ">

@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   font-family: var(--font-family);
   max-width: var(--max-width);
+  width: 100%;
   min-height: 100%;
   overflow-x: hidden;
   /* background-image: linear-gradient(to bottom left, #464646, #3C3C3E); */
@@ -38,6 +39,7 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior:smooth;
 }
 
 a span {
@@ -61,8 +63,8 @@ section {
   z-index: 1;
 }
 
-#header  h1{
-  line-height:1.2;
+#header h1 {
+  line-height: 1.2;
 }
 
 .video-container {
@@ -84,4 +86,8 @@ section {
 
 video {
   object-fit: contain;
+}
+
+textarea{
+  resize: none;
 }
