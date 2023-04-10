@@ -6,7 +6,7 @@ export default function Waitlist() {
   return (
     <section id="waitlist" className="bg-darkPink">
       <div className="max-w-7xl mx-auto my-8 py-8 w-full px-4">
-        <div className="md:flex block items-center justify-evenly md:gap-4 space-y-4">
+        <div className="md:flex flex-col block items-center justify-center md:gap-4 space-y-4">
           <button className="bg-lightBlue hover:bg-darkBlue px-6 py-4 md:w-[300px] text-white rounded-md font-semibold">
             <Link
               href="#"
@@ -16,11 +16,11 @@ export default function Waitlist() {
               signup
             </Link>
           </button>
-          <div className="flex flex-col text-left flex-1 gap-4">
+          <div className="flex flex-col flex-1 gap-4">
             <h2 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
               Now to join the waitlist
             </h2>
-            <p className="text-left text-white/80 leading-8 text-lg">
+            <p className="text-center text-white/80 leading-8 text-lg">
               Don&apos;t miss out on the chance to experience video shopping
             </p>
           </div>

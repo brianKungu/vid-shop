@@ -28,7 +28,7 @@ export default function Home() {
 
       <Feedback3 />
       <VideoSec />
-      <Creators />
+      {/* <Creators /> */}
       <ContactUs />
     </Layout>
   );
