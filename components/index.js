@@ -10,5 +10,7 @@ export { default as Waitlist } from "./sections/Waitlist";
 export { default as ContactUs } from "./sections/ContactUs";
 export { default as Experience } from "./sections/Experience";
 export { default as VideoSec } from "./sections/VideoSec";
+export { default as VidshopQuote } from "./sections/VidshopQuote";
+export { default as Goodbye } from "./sections/Goodbye";
 export { default as CRCButton } from "./react-scroll-btns/CRCButton";
 export { default as Button } from "./next-link-btns/Button";

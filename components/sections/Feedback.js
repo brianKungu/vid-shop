@@ -5,7 +5,7 @@ export default function Feedback() {
   return (
     <section id="feedback">
       <div className="max-w-7xl mx-auto my-8 py-8 w-full">
-        <div className="flex mx-8 justify-center items-center gap-4 text-left flex-wrap md:flex-nowrap">
+        <div className="flex md:mx-8 justify-center items-center gap-4 text-left flex-wrap md:flex-nowrap">
           <div>
             <h2 className="font-bold text-3xl md:text-5xl text-lightBlue uppercase leading-8 drop-shadow-xl">
               Geoffrey Otieno
@@ -14,10 +14,10 @@ export default function Feedback() {
               Shopper
             </h3>
             <p className="mt-8 text-white/80 leading-8 text-lg">
-              &quot;Explore the underground world of shopping with creators as
-              they unveil hidden gems, <br />
-              share product finds and prices with our innovative in-video
-              shopping texhnology.&quot;
+              &quot;I am blown away by how easy vidshop made shopping. it was so
+              convenient to discover products while watching videos and the
+              seamless link popups made checkout a breeze. I&apos;ll definitely
+              be using this app for all my future shopping needs.&quot;
             </p>
           </div>
           <Image

@@ -10,7 +10,7 @@ export default function Footer() {
           <RCButton name="how it works" to="how" />
           <RCButton name="reviews" to="reviews" />
           <RCButton name="contact" to="contact" />
-          <Link href="">
+          <Link href="#" className="capitalize">
             <span>privacy policy</span>
           </Link>
         </div>
@@ -39,6 +39,7 @@ export default function Footer() {
           <a href="#!" className="text-darkPink  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
+
               className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"

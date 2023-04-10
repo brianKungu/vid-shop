@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Feedback2() {
   return (
-    <section id="feedback" className="bg-darkPink/95 rounded-md md:rounded-none">
+    <section id="feedback" className="bg-darkPink/95">
       <div className="max-w-7xl mx-auto my-8 py-8 w-full">
-        <div className="flex mx-8 justify-center items-center gap-4 text-left flex-wrap md:flex-nowrap">
+        <div className="flex  justify-center items-center gap-4 text-left flex-wrap md:flex-nowrap">
           <Image
             src="/images/comment2.png"
             className="mx-auto"

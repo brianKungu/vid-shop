@@ -8,8 +8,6 @@ export default function Experience() {
     { src: "/images/pr2.png", alt: "product 2" },
     { src: "/images/pr3.png", alt: "product 3" },
     { src: "/images/pr4.png", alt: "product 4" },
-    { src: "/images/pr6.png", alt: "product 4" },
-    { src: "/images/pr8.png", alt: "product 4" },
   ];
   return (
     <SectionComponent name="experience" className="text-center">
@@ -24,7 +22,13 @@ export default function Experience() {
       <div className="grid md:grid-cols-4 grid-cols-2 gap-8 py-4 mt-8">
         {productImages.map((image, index) => (
           <div key={index}>
-            <Image src={image.src} height={250} width={250} alt={image.alt} />
+            <Image
+              src={image.src}
+              height={250}
+              width={250}
+              alt={image.alt}
+              className="rounded-md border p-6 border-darkPink/40 shadow-md shadow-lightPink/40"
+            />
           </div>
         ))}
       </div>

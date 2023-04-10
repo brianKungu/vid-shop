@@ -13,6 +13,8 @@ import {
   ContactUs,
   Experience,
   VideoSec,
+  VidshopQuote,
+  Goodbye
 } from "../components";
 
 export default function Home() {
@@ -25,10 +27,11 @@ export default function Home() {
       <Waitlist />
       <Experience />
       <Feedback2 />
-
+<Goodbye />
       <Feedback3 />
       <VideoSec />
       {/* <Creators /> */}
+      <VidshopQuote />
       <ContactUs />
     </Layout>
   );
