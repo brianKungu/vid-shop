@@ -14,11 +14,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between w-full py-6  border-lightPink md:justify-start md:space-x-10">
           <div className="flex justify-start items-center gap-4">
             <Image
-              src="/images/logo.png"
+              src="/images/logo2.png"
               width={50}
               height={50}
               alt="vid shop logo image"
               priority
+              className="rounded-md"
             />
 
             <a href="#header">
@@ -27,9 +28,9 @@ export default function Navbar() {
             </a>
           </div>
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
-            <RCButton name="how it works" />
-            <RCButton name="reviews" />
-            <RCButton name="contact us" to="contact"/>
+            <RCButton name="how it works" to="how" />
+            <RCButton name="reviews" to="feedback2" />
+            <RCButton name="contact us" to="contact" />
             <NXTButtonOutline name="sign up" />
             <Button>
               <Link href="/login" passHref>
@@ -73,7 +74,7 @@ export default function Navbar() {
                 <div className="grid gap-y-8">
                   <RCButton name="how it works" />
                   <RCButton name="reviews" />
-                  <RCButton name="contact us" to="contact"/>
+                  <RCButton name="contact us" to="contact" />
                   <NXTButtonOutline name="sign up" />
                   <Button>
                     <Link href="/login" passHref>

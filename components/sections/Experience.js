@@ -8,6 +8,10 @@ export default function Experience() {
     { src: "/images/pr2.png", alt: "product 2" },
     { src: "/images/pr3.png", alt: "product 3" },
     { src: "/images/pr4.png", alt: "product 4" },
+    { src: "/images/pr5.png", alt: "product 5" },
+    { src: "/images/pr6.png", alt: "product 6" },
+    { src: "/images/pr7.png", alt: "product 7" },
+    { src: "/images/pr8.png", alt: "product 8" },
   ];
   return (
     <SectionComponent name="experience" className="text-center">
@@ -19,17 +23,16 @@ export default function Experience() {
         electronics, <br /> all in one place while getting the best deals
         available.
       </p>
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-8 py-4 mt-8">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-8 py-4 mt-8 items-center">
         {productImages.map((image, index) => (
-          <div key={index}>
             <Image
               src={image.src}
-              height={250}
-              width={250}
+              height={300}
+              width={300}
               alt={image.alt}
               className="rounded-md border p-6 border-darkPink/40 shadow-md shadow-lightPink/40"
+              key={index}
             />
-          </div>
         ))}
       </div>
     </SectionComponent>

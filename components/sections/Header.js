@@ -3,14 +3,15 @@ import Image from "next/image";
 import CRCButton from "../react-scroll-btns/CRCButton";
 export default function Header() {
   return (
-    <section id="header" className="mt-8 ">
+    <section id="header" className="mt-10 ">
       <div className="max-w-7xl mx-auto my-8 py-8">
         <div className="flex flex-col items-center">
           <Image
-            src="/images/logo.png"
+            src="/images/logo2.png"
             width={350}
             height={350}
             alt="vidshop logo"
+            className="rounded-md"
           />
           <div className="text-center mt-8">
             <h1 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
@@ -20,10 +21,10 @@ export default function Header() {
               &quot;Explore the underground world of shopping with creators as
               they unveil hidden gems, <br />
               share product finds and prices with our innovative in-video
-              shopping texhnology.&quot;
+              shopping technology.&quot;
             </p>
             <div className="mt-4">
-            <CRCButton to="how" name="watch a demo"/>
+              <CRCButton to="how" name="watch a demo" />
             </div>
           </div>
         </div>

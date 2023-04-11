@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Feedback3() {
   return (
-    <section id="feedback">
+    <section id="feedback3">
       <div className="max-w-7xl mx-auto my-8 py-8 w-full">
         <div className="flex  justify-center items-center gap-4 text-left flex-wrap md:flex-nowrap">
           <div>

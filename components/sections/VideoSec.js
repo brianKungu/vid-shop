@@ -24,20 +24,23 @@ export default function VideoSec() {
             <img src="/images/invideo3.png" />
             <img src="/images/invideo.png" />
             <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" /> 
+            <img src="/images/invideo3.png" />
             <img src="/images/invideo.png" />
             <img src="/images/invideo2.png" />
             <img src="/images/invideo3.png" />
           </div>
         </div>
-        <div className="p-12 text-center">
+        <div className="p-12 text-center uppercase font-bold">
           {" "}
           <h2 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
             Don&apos;t get it? <br />{" "}
-            <span className="text-3xl text-white/80">
-              here is a quick demo video
-            </span>
           </h2>
+          <span className=" text-3xl md:text-4xl text-white/80">
+            here is a quick {" "}
+          </span>
+          <span className=" text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#405DE6] via-[#C13584] to-[#F56040]">
+            demo video
+          </span>{" "}
           <div className="mt-10">
             <div className="how-container">
               <video
