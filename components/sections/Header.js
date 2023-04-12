@@ -7,7 +7,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto my-8 py-8">
         <div className="flex flex-col items-center">
           <Image
-            src="/images/logo2.png"
+            src="/images/logo3.jpg"
             width={350}
             height={350}
             alt="vidshop logo"

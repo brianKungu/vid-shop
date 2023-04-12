@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between w-full py-6  border-lightPink md:justify-start md:space-x-10">
           <div className="flex justify-start items-center gap-4">
             <Image
-              src="/images/logo2.png"
+              src="/images/logo3.jpg"
               width={50}
               height={50}
               alt="vid shop logo image"
