@@ -15,7 +15,10 @@ export default function Header() {
           />
           <div className="text-center mt-8">
             <h1 className="font-bold text-3xl md:text-5xl text-white uppercase leading-8">
-              Shop and swipe. the ultimate shopping experience
+              Shop and swipe. the ultimate shopping{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#405DE6] via-[#C13584] to-[#F56040]">
+                experience
+              </span>
             </h1>
             <p className="mt-4 text-white/80 leading-8 text-lg">
               &quot;Explore the underground world of shopping with creators as

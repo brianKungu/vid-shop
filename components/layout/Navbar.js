@@ -72,8 +72,8 @@ export default function Navbar() {
               </div>
               <div className="mt-6">
                 <div className="grid gap-y-8">
-                  <RCButton name="how it works" />
-                  <RCButton name="reviews" />
+                  <RCButton name="how it works" to="how"/>
+                  <RCButton name="reviews" to="feedback2"/>
                   <RCButton name="contact us" to="contact" />
                   <NXTButtonOutline name="sign up" />
                   <Button>

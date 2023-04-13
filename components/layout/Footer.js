@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="md:flex flex-col items-center justify-center container ">
         <div className="mb-8 flex items-center justify-center md:gap-8 flex-col md:flex-row">
           <RCButton name="how it works" to="how" />
-          <RCButton name="reviews" to="reviews" />
+          <RCButton name="reviews" to="feedback2" />
           <RCButton name="contact" to="contact" />
           <Link href="#" className="capitalize">
             <span>privacy policy</span>
