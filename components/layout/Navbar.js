@@ -33,7 +33,7 @@ export default function Navbar() {
             <RCButton name="contact us" to="contact" />
             <NXTButtonOutline name="sign up" />
             <Button>
-              <Link href="/login" passHref>
+              <Link href="#" passHref>
                 Login
               </Link>
             </Button>
@@ -77,7 +77,7 @@ export default function Navbar() {
                   <RCButton name="contact us" to="contact" />
                   <NXTButtonOutline name="sign up" />
                   <Button>
-                    <Link href="/login" passHref>
+                    <Link href="#" passHref>
                       Login
                     </Link>
                   </Button>

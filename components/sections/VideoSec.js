@@ -4,9 +4,9 @@ import SectionComponent from "./SectionComponent";
 export default function VideoSec() {
   return (
     <section id="inVideoShopping" className="px-0">
-      <div className="mx-auto my-8 py-8 w-full marquee-container">
+      <div className="mx-auto my-8 py-8 w-full">
         <div className="bg-lightPink w-full max-w-[1440px]">
-          <marquee className=" flex  items-center justify-center gap-2 text-3xl font-bold" width="100%" height="60px">
+          <marquee className=" flex  items-center justify-center gap-2 text-3xl font-bold" width="100%" height="60px" loop="10">
             <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
@@ -48,6 +48,12 @@ export default function VideoSec() {
               in video shopping
             </span>
             <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span> <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span> <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
             </span>
