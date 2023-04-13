@@ -15,10 +15,11 @@ export default function Goodbye() {
         </span>
         .
       </h2>
-      <p className="mt-8 text-white/80 leading-8 md:text-xl text-md">
-        Shop from creators you already know and trust. Our platform allows you
-        to discover and follow your favorite creators, so you can always stay
-        up-to-date with the latest products they have to offer.
+      <p className="mt-8 text-white/80 leading-8 md:text-xl text-xl">
+        &quot;{" "}
+        <span className="uppercase font-bold">#Onliners reality just got cancelled</span>{" "}
+        <br /> Discover high quality videos with accurate and detailed product
+        descriptions.Basically, what you see is what you get. &quot;
       </p>
     </SectionComponent>
   );

@@ -24,7 +24,7 @@ export default function Header() {
               shopping technology.&quot;
             </p>
             <div className="mt-4">
-              <CRCButton to="how" name="watch a demo" />
+              <CRCButton to="video" name="watch a demo" />
             </div>
           </div>
         </div>

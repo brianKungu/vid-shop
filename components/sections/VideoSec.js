@@ -6,29 +6,52 @@ export default function VideoSec() {
     <section id="inVideoShopping" className="px-0">
       <div className="mx-auto my-8 py-8 w-full marquee-container">
         <div className="bg-lightPink w-full max-w-[1440px]">
-          <div className="marquee flex items-center justify-center gap-2">
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-            <img src="/images/invideo.png" />
-            <img src="/images/invideo2.png" />
-            <img src="/images/invideo3.png" />
-          </div>
+          <marquee className=" flex  items-center justify-center gap-2 text-3xl font-bold" width="100%" height="60px">
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+          </marquee>
         </div>
         <div className="p-12 text-center uppercase font-bold">
           {" "}
@@ -36,9 +59,10 @@ export default function VideoSec() {
             Don&apos;t get it? <br />{" "}
           </h2>
           <span className=" text-3xl md:text-4xl text-white/80">
-            here is a quick {" "}
+            here is a quick{" "}
           </span>
           <span className=" text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#405DE6] via-[#C13584] to-[#F56040]">
+            {" "}
             demo video
           </span>{" "}
           <div className="mt-10">
@@ -51,6 +75,7 @@ export default function VideoSec() {
                 autoplay
                 muted
                 controls
+                id="video"
               ></video>
             </div>
           </div>

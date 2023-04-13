@@ -42,8 +42,11 @@ export default function How() {
   return (
     <section id="how">
       <div className="max-w-7xl mx-auto my-8 py-8 w-full">
-        <h2 className="font-bold text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#405DE6] via-[#C13584] to-[#F56040] uppercase leading-8">
-          This is how it goes down
+        <h2 className="font-bold text-3xl md:text-5xl uppercase leading-8 text-white">
+          This is{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#405DE6] via-[#C13584] to-[#F56040]">
+            how it goes down
+          </span>
         </h2>
         <div className="mt-12">
           <ol className="relative border-l-8 border-lightPink mx-6 my-4">
@@ -58,7 +61,12 @@ export default function How() {
                 <p className="my-8 md:text-lg font-normal text-white/80 ">
                   {content.description}
                 </p>
-                <Image src={content.imgSrc} alt="images" height={500} width={500}/>
+                <Image
+                  src={content.imgSrc}
+                  alt="images"
+                  height={500}
+                  width={500}
+                />
               </li>
             ))}
           </ol>
