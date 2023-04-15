@@ -95,8 +95,6 @@ textarea {
   resize: none;
 }
 
-
-
 marquee {
   animation: 5s linear infinite;
 }
@@ -106,7 +104,6 @@ marquee span {
   padding: 0 10px;
 }
 
-.invideo-text {
+marquee .invideo-text {
   font-family: "Dancing Script", cursive !important;
 }
-

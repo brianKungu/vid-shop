@@ -6,27 +6,12 @@ export default function VideoSec() {
     <section id="inVideoShopping" className="px-0">
       <div className="mx-auto my-8 py-8 w-full">
         <div className="bg-lightPink w-full max-w-[1440px]">
-          <marquee className=" flex  items-center justify-center gap-2 text-3xl font-bold" width="100%" height="60px" loop="10">
-            <span className="invideo-text text-white">in video shopping</span>
-            <span className="invideo-text text-darkBlue ">
-              in video shopping
-            </span>
-
-            <span className="invideo-text text-white">in video shopping</span>
-            <span className="invideo-text text-darkBlue ">
-              in video shopping
-            </span>
-
-            <span className="invideo-text text-white">in video shopping</span>
-            <span className="invideo-text text-darkBlue ">
-              in video shopping
-            </span>
-
-            <span className="invideo-text text-white">in video shopping</span>
-            <span className="invideo-text text-darkBlue ">
-              in video shopping
-            </span>
-
+          <marquee
+            className="flex items-center justify-center gap-2 text-3xl font-bold"
+            width="100%"
+            height="60px"
+            loop="10"
+          >
             <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
@@ -50,10 +35,28 @@ export default function VideoSec() {
             <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
-            </span> <span className="invideo-text text-white">in video shopping</span>
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
-            </span> <span className="invideo-text text-white">in video shopping</span>
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>{" "}
+            <span className="invideo-text text-white">in video shopping</span>
+            <span className="invideo-text text-darkBlue ">
+              in video shopping
+            </span>{" "}
+            <span className="invideo-text text-white">in video shopping</span>
             <span className="invideo-text text-darkBlue ">
               in video shopping
             </span>
@@ -81,6 +84,7 @@ export default function VideoSec() {
                 autoplay
                 muted
                 controls
+                preload="true"
                 id="video"
               ></video>
             </div>
